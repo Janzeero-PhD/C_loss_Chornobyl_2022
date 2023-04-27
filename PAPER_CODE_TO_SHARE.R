@@ -113,9 +113,9 @@ gmfr.C.VH.graph <- gmfr.C.VH[[1]] +
   scale_x_continuous(limits = c(0, 30)) +
   scale_y_continuous(limits = c(0, 30)) +
   annotate("text", label = c(expression(paste("RMSE = 5.5%"))), x = 5, y = 29, size = 2) +
-  annotate('text', label = c(expression(paste('AC = ', 0.29))), x = 5, y = 28, size = 2, col = 'blue') +
-  annotate('text', label = c(expression(paste('AC sys = ', 0.18))), x = 5, y = 27, size = 2, col = 'blue') +
-  annotate('text', label = c(expression(paste('AC uns = ', 0.90))), x = 5, y = 26, size = 2, col = 'blue') +
+  annotate('text', label = c(expression(paste('AC = ', 0.18))), x = 5, y = 28, size = 2, col = 'blue') +
+  annotate('text', label = c(expression(paste('AC sys = ', 0.90))), x = 5, y = 27, size = 2, col = 'blue') +
+  annotate('text', label = c(expression(paste('AC uns = ', 0.27))), x = 5, y = 26, size = 2, col = 'blue') +
   labs(x = c(expression(paste("C loss (inventory data), %"))),
        y = c(expression(paste("SAR backscatter loss, %"))))
 gmfr.C.VH.graph
